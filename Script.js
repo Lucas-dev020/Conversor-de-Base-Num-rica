@@ -3,6 +3,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
   const number = document.getElementById("numberInput").value.trim();
   //Obtém a base de origem (ex: 10, 2, 16) como um número inteiro.
   const baseFrom = parseInt(document.getElementById("baseFrom").value);
+  // 3. Obtém a base de destino desejada como um número inteiro.
   const baseTo = parseInt(document.getElementById("baseTo").value);
   const resultOutput = document.getElementById("resultOutput");
 //*GERMANO PASSOU AQUI
