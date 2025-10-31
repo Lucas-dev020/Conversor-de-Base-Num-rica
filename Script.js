@@ -5,6 +5,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
   const baseFrom = parseInt(document.getElementById("baseFrom").value);
   // 3. Obtém a base de destino desejada como um número inteiro.
   const baseTo = parseInt(document.getElementById("baseTo").value);
+  // 4. Referência ao elemento onde o resultado será exibido.
   const resultOutput = document.getElementById("resultOutput");
 //*GERMANO PASSOU AQUI
   if (number === "") {
