@@ -13,7 +13,7 @@ body {
   justify-content: center;
   height: 100vh;
 }
-
+/* Adicionando Background-color e a largura da página web */
 .container {
   background-color: #1f1f1f;
   padding: 2rem;
