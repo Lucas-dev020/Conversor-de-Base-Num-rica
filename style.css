@@ -56,7 +56,7 @@ button {
   cursor: pointer;
   transition: 0.3s;
 }
-
+/* Adicionando um animação de troca de cor do botão */
 button:hover {
   background-color: #0097a7;
 }
