@@ -20,7 +20,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
     const decimalValue = parseInt(number, baseFrom);
     // 8. Se o valor decimal não for um número válido (NaN), lança um erro.
     if (isNaN(decimalValue)) throw new Error();
-
+// 9. Converte o valor decimal para a 'baseTo' (destino) e deixa em maiúsculas.
     const converted = decimalValue.toString(baseTo).toUpperCase();
     resultOutput.textContent = converted;
   } catch {
