@@ -3,7 +3,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
   const baseFrom = parseInt(document.getElementById("baseFrom").value);
   const baseTo = parseInt(document.getElementById("baseTo").value);
   const resultOutput = document.getElementById("resultOutput");
-
+//*GERMANO PASSOU AQUI
   if (number === "") {
     resultOutput.textContent = "Por favor, digite um número.";
     return;
