@@ -19,3 +19,4 @@ document.getElementById("convertBtn").addEventListener("click", () => {
     resultOutput.textContent = "Entrada inválida para a base escolhida.";
   }
 });
+// funcionalidades básicas de conversão
