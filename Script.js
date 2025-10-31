@@ -1,4 +1,5 @@
 document.getElementById("convertBtn").addEventListener("click", () => {
+  //Obtém o número digitado e remove espaços no início/fim.
   const number = document.getElementById("numberInput").value.trim();
   const baseFrom = parseInt(document.getElementById("baseFrom").value);
   const baseTo = parseInt(document.getElementById("baseTo").value);
