@@ -2,8 +2,8 @@
 
 ## Integrantes do Grupo
 - Lucas Gustavo – [GitHub](https://github.com/Lucas-dev020)
-- [Nome do 2º integrante] – [GitHub](link-do-integrante)
-- [Nome do 3º integrante] – [GitHub](link-do-integrante)
+- Germano Carlos – [GitHub](https://github.com/DevGermano/devgermano)
+- Anthony Dhavid – [GitHub](link-do-integrante)
 
 ## Tema do Projeto
 Conversor de bases numéricas: decimal, binário, hexadecimal e octal.
