@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Bases Numéricas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Conversor de Bases Numéricas</h1>
+
+      <div class="converter">
+        <label for="numberInput">Número:</label>
+        <input type="text" id="numberInput" placeholder="Digite o número..." />
+
+        <label for="baseFrom">Converter de:</label>
+        <select id="baseFrom">
+          <option value="10">Decimal</option>
+          <option value="2">Binário</option>
+          <option value="8">Octal</option>
+          <option value="16">Hexadecimal</option>
+        </select>
+
+        <label for="baseTo">Para:</label>
+        <select id="baseTo">
+          <option value="2">Binário</option>
+          <option value="8">Octal</option>
+          <option value="10" selected>Decimal</option>
+          <option value="16">Hexadecimal</option>
+        </select>
+
+        <button id="convertBtn">Converter</button>
+
+        <div class="result">
+          <h2>Resultado:</h2>
+          <p id="resultOutput">—</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+''
