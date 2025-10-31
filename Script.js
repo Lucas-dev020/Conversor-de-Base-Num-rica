@@ -8,6 +8,8 @@ document.getElementById("convertBtn").addEventListener("click", () => {
   // 4. Referência ao elemento onde o resultado será exibido.
   const resultOutput = document.getElementById("resultOutput");
 //*GERMANO PASSOU AQUI
+
+// 5. Verifica se o campo de número está vazio.
   if (number === "") {
     resultOutput.textContent = "Por favor, digite um número.";
     return;
