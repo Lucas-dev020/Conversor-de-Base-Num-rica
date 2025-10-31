@@ -16,6 +16,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
   }
 // 6. Bloco para tentar a conversão e capturar erros.
   try {
+    // 7. Converte o número (string) da 'baseFrom' para o valor decimal (Base 10).
     const decimalValue = parseInt(number, baseFrom);
     if (isNaN(decimalValue)) throw new Error();
 
