@@ -14,7 +14,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
     resultOutput.textContent = "Por favor, digite um número.";
     return;
   }
-
+// 6. Bloco para tentar a conversão e capturar erros.
   try {
     const decimalValue = parseInt(number, baseFrom);
     if (isNaN(decimalValue)) throw new Error();
