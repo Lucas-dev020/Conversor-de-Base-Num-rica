@@ -70,3 +70,6 @@ button:hover {
   color: #00e676;
   margin-top: 0.5rem;
 } 
+.converter label {
+  text-align: left;
+}
